@@ -5,7 +5,7 @@ app = Flask(__name__)
 def say_hello(username = "World"):
     return '<p>Hello %s</p>\n' % username 
 
-header test = '''
+header_text = '''
 <html>\n<head> <title>EB Flask Test</title> </head>\n<body>'''
 
 instructions = '''
